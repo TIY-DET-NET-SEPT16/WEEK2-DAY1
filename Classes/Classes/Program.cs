@@ -20,6 +20,8 @@ namespace Classes
 
             Vehicle myCar = new Vehicle(4);
             myCar.HasDoors = true;
+
+            Console.WriteLine("My Car has {0} wheels", myCar.NumWheels);
         }
     }
 }
